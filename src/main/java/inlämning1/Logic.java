@@ -39,6 +39,7 @@ public class Logic {
         morseMap.put("-.--", "Y");
         morseMap.put("--..", "Z");
         morseMap.put(" ", " ");
+        morseMap.put("/", " ");
 
         abcMap.put("A", ".-");
         abcMap.put("B", "-...");
