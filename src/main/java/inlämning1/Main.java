@@ -23,7 +23,7 @@ public class Main {
                     System.out.println(morse.translateSentence(input));
                     braval = true;
                 } else if (val == 2) {
-                    System.out.println("vad vill du översätta till morse?(tänk på att åäö inte finns!");
+                    System.out.println("vad vill du översätta till morse?(tänk på att åäö inte finns!)");
                     String input = scan.nextLine();
                     System.out.println(morse.translatetoMorse(input));
                     braval = true;
