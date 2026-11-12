@@ -57,7 +57,7 @@ public class Testing {
         Logic logic = new Logic();
         String input = "1";
         String actual = logic.translatetoMorse(input);
-        String expected = "null";
+        String expected = ".----";
         assertEquals(expected, actual);
     }
     @Test
@@ -66,6 +66,23 @@ public class Testing {
         String input = "-. ..- .-.. .-..";
         String actual = logic.translateSentence(input);
         String expected = "NULL";
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testtranslateSpecial() {
+        Logic logic = new Logic();
+        String input = "@ ?";
+        String actual = logic.translatetoMorse(input);
+        String expected = ".--.-. / ..--..";
+        assertEquals(expected, actual);
+    }
+    @Test
+    public void testtranslateSpecial2() {
+        Logic logic = new Logic();
+        String input = ".--.-. / .--.-. / .--.-.";
+        String actual = logic.translateSentence(input);
+        String expected = "@ @ @";
         assertEquals(expected, actual);
     }
 

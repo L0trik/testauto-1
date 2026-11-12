@@ -40,6 +40,30 @@ public class Logic {
         morseMap.put("--..", "Z");
         morseMap.put(" ", " ");
         morseMap.put("/", " ");
+        morseMap.put(".-.-.-", ".");
+        morseMap.put("--..--", ",");
+        morseMap.put("..--..", "?");
+        morseMap.put("-.-.--", "!");
+        morseMap.put("---...", ":");
+        morseMap.put("-.-.-.", ";");
+        morseMap.put("-....-", "-");
+        morseMap.put("..--.-", "_");
+        morseMap.put("-.--.", "(");
+        morseMap.put("-.--.-", ")");
+        morseMap.put("-..-.", "/");
+        morseMap.put(".-..-.", "\"");
+        morseMap.put(".--.-.", "@");
+        morseMap.put("-----", "0");
+        morseMap.put(".----", "1");
+        morseMap.put("..---", "2");
+        morseMap.put("...--", "3");
+        morseMap.put("....-", "4");
+        morseMap.put(".....", "5");
+        morseMap.put("-....", "6");
+        morseMap.put("--...", "7");
+        morseMap.put("---..", "8");
+        morseMap.put("----.", "9");
+
 
         abcMap.put("A", ".-");
         abcMap.put("B", "-...");
@@ -67,7 +91,30 @@ public class Logic {
         abcMap.put("X", "-..-");
         abcMap.put("Y", "-.--");
         abcMap.put("Z", "--..");
-        abcMap.put(" ", " ");
+        abcMap.put(" ", "/");
+        abcMap.put(".", ".-.-.-");
+        abcMap.put(",", "--..--");
+        abcMap.put("?", "..--..");
+        abcMap.put("!", "-.-.--");
+        abcMap.put(":", "---...");
+        abcMap.put(";", "-.-.-.");
+        abcMap.put("-", "-....-");
+        abcMap.put("_", "..--.-");
+        abcMap.put("(", "-.--.");
+        abcMap.put(")", "-.--.-");
+        abcMap.put("/", "-..-.");
+        abcMap.put("\"", ".-..-.");
+        abcMap.put("@", ".--.-.");
+        abcMap.put("0", "-----");
+        abcMap.put("1", ".----");
+        abcMap.put("2", "..---");
+        abcMap.put("3", "...--");
+        abcMap.put("4", "....-");
+        abcMap.put("5", ".....");
+        abcMap.put("6", "-....");
+        abcMap.put("7", "--...");
+        abcMap.put("8", "---..");
+        abcMap.put("9", "----.");
 
     }
 
